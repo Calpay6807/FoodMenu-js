@@ -1,0 +1,43 @@
+p{
+    font-family: sans-serif;
+    color: #9e9d9d;
+    font-size: 17px;
+    
+}
+h5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3f3d3d !important;
+}
+
+.active{
+    background-color: #3f3d3d;
+   
+}
+
+
+@media (min-width:769px){
+ 
+    #card img{
+
+        width: 150px;
+        height: 150px;
+    }
+    #menu-container{
+        max-width: 1500px;
+    }
+}
+
+@media (max-width:769px) {
+    #card img{
+        height: 240px ;
+    }
+}
+
+@media (min-width: 1600px){
+    .container {
+        width: 1500px !important;
+    }
+    #card p {
+        font-size: 14px;
+    }
+}
